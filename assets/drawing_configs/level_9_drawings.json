@@ -1,0 +1,578 @@
+{
+  "version": "1.0",
+  "level": 9,
+  "description": "复杂故事场景，适合9岁儿童",
+  "drawings": [
+    {
+      "id": "zoo_visit",
+      "name": "动物园一日游",
+      "type": "story",
+      "steps": [
+        {
+          "name": "大门",
+          "description": "画动物园大门",
+          "color": [139, 90, 43],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[50, 100], [80, 100], [80, 200], [50, 200]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[320, 100], [350, 100], [350, 200], [320, 200]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[80, 100], [200, 80], [320, 100]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "门牌",
+          "description": "画动物园标志",
+          "color": [255, 215, 0],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[150, 90], [250, 90], [250, 120], [150, 120]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "熊猫馆",
+          "description": "画熊猫和竹子",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [100, 260],
+              "radius": 30,
+              "segments": 20
+            },
+            {
+              "type": "circle",
+              "center": [100, 225],
+              "radius": 25,
+              "segments": 18
+            }
+          ]
+        },
+        {
+          "name": "熊猫特征",
+          "description": "画熊猫的黑色部分",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [80, 210],
+              "radius": 8,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [120, 210],
+              "radius": 8,
+              "segments": 10
+            },
+            {
+              "type": "polygon",
+              "points": [[85, 225], [90, 220], [95, 225], [90, 235], [85, 230]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[105, 225], [110, 220], [115, 225], [110, 235], [105, 230]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "竹子",
+          "description": "画熊猫旁边的竹子",
+          "color": [34, 139, 34],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[130, 240], [140, 240], [140, 290], [130, 290]],
+              "closed": true
+            },
+            {
+              "type": "line",
+              "points": [[130, 255], [140, 255]]
+            },
+            {
+              "type": "line",
+              "points": [[130, 270], [140, 270]]
+            }
+          ]
+        },
+        {
+          "name": "狮子",
+          "description": "画狮子",
+          "color": [255, 165, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [250, 250],
+              "radius": 35,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "狮子鬃毛",
+          "description": "画狮子的鬃毛",
+          "color": [139, 90, 19],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [250, 250],
+              "radius": 45,
+              "segments": 25
+            }
+          ]
+        },
+        {
+          "name": "狮子的脸",
+          "description": "画狮子的五官",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [240, 245],
+              "radius": 3,
+              "segments": 6
+            },
+            {
+              "type": "circle",
+              "center": [260, 245],
+              "radius": 3,
+              "segments": 6
+            },
+            {
+              "type": "polygon",
+              "points": [[250, 255], [245, 260], [255, 260]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "游客家庭",
+          "description": "画游客爸爸",
+          "color": [0, 0, 139],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[160, 300], [190, 300], [190, 340], [160, 340]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "爸爸的头",
+          "description": "画爸爸的头",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [175, 280],
+              "radius": 20,
+              "segments": 15
+            }
+          ]
+        },
+        {
+          "name": "妈妈",
+          "description": "画妈妈",
+          "color": [255, 0, 255],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[200, 305], [230, 305], [235, 340], [195, 340]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "妈妈的头",
+          "description": "画妈妈的头和头发",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [215, 280],
+              "radius": 20,
+              "segments": 15
+            }
+          ]
+        },
+        {
+          "name": "妈妈的头发",
+          "description": "画妈妈的长发",
+          "color": [139, 69, 19],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [215, 280],
+              "radius": 25,
+              "start_angle": 180,
+              "end_angle": 360
+            }
+          ]
+        },
+        {
+          "name": "孩子",
+          "description": "画兴奋的孩子",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[240, 315], [260, 315], [260, 340], [240, 340]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "孩子的头",
+          "description": "画孩子的头",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [250, 300],
+              "radius": 15,
+              "segments": 12
+            }
+          ]
+        },
+        {
+          "name": "指示牌",
+          "description": "画动物园指示牌",
+          "color": [139, 90, 43],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[300, 280], [310, 280], [310, 320], [300, 320]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[280, 260], [330, 260], [330, 280], [280, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "路径",
+          "description": "画游览路径",
+          "color": [192, 192, 192],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[50, 340], [350, 340], [360, 350], [40, 350]],
+              "closed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wolf_and_pigs",
+      "name": "大灰狼和三只小猪",
+      "type": "story",
+      "steps": [
+        {
+          "name": "草地背景",
+          "description": "画草地",
+          "color": [124, 252, 0],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[0, 300], [400, 300], [400, 350], [0, 350]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "稻草房",
+          "description": "画倒塌的稻草房",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[40, 300], [60, 280]]
+            },
+            {
+              "type": "line",
+              "points": [[50, 300], [70, 285]]
+            },
+            {
+              "type": "line",
+              "points": [[45, 300], [55, 290]]
+            },
+            {
+              "type": "line",
+              "points": [[65, 300], [80, 290]]
+            }
+          ]
+        },
+        {
+          "name": "第一只小猪",
+          "description": "画害怕的第一只小猪",
+          "color": [255, 192, 203],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [60, 270],
+              "radius": 20,
+              "segments": 15
+            },
+            {
+              "type": "circle",
+              "center": [60, 250],
+              "radius": 15,
+              "segments": 12
+            }
+          ]
+        },
+        {
+          "name": "木头房",
+          "description": "画摇晃的木头房",
+          "color": [139, 90, 43],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[140, 240], [200, 240], [200, 300], [140, 300]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[130, 240], [170, 200], [210, 240]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "第二只小猪",
+          "description": "画担心的第二只小猪",
+          "color": [255, 182, 193],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [160, 270],
+              "radius": 20,
+              "segments": 15
+            },
+            {
+              "type": "circle",
+              "center": [160, 250],
+              "radius": 15,
+              "segments": 12
+            }
+          ]
+        },
+        {
+          "name": "猪的表情",
+          "description": "画两只猪害怕的表情",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [55, 245],
+              "radius": 2,
+              "segments": 4
+            },
+            {
+              "type": "circle",
+              "center": [65, 245],
+              "radius": 2,
+              "segments": 4
+            },
+            {
+              "type": "arc",
+              "center": [60, 255],
+              "radius": 5,
+              "start_angle": 180,
+              "end_angle": 360
+            },
+            {
+              "type": "circle",
+              "center": [155, 245],
+              "radius": 2,
+              "segments": 4
+            },
+            {
+              "type": "circle",
+              "center": [165, 245],
+              "radius": 2,
+              "segments": 4
+            },
+            {
+              "type": "arc",
+              "center": [160, 255],
+              "radius": 5,
+              "start_angle": 180,
+              "end_angle": 360
+            }
+          ]
+        },
+        {
+          "name": "砖房",
+          "description": "画坚固的砖房",
+          "color": [178, 34, 34],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[260, 230], [340, 230], [340, 300], [260, 300]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[250, 230], [300, 190], [350, 230]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "砖纹",
+          "description": "画砖块纹理",
+          "color": [139, 0, 0],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[260, 250], [340, 250]]
+            },
+            {
+              "type": "line",
+              "points": [[260, 270], [340, 270]]
+            },
+            {
+              "type": "line",
+              "points": [[280, 230], [280, 250]]
+            },
+            {
+              "type": "line",
+              "points": [[300, 230], [300, 250]]
+            },
+            {
+              "type": "line",
+              "points": [[320, 230], [320, 250]]
+            }
+          ]
+        },
+        {
+          "name": "第三只小猪",
+          "description": "画自信的第三只小猪",
+          "color": [255, 192, 203],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [300, 270],
+              "radius": 20,
+              "segments": 15
+            },
+            {
+              "type": "circle",
+              "center": [300, 250],
+              "radius": 15,
+              "segments": 12
+            }
+          ]
+        },
+        {
+          "name": "第三只猪表情",
+          "description": "画自信的表情",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [295, 245],
+              "radius": 2,
+              "segments": 4
+            },
+            {
+              "type": "circle",
+              "center": [305, 245],
+              "radius": 2,
+              "segments": 4
+            },
+            {
+              "type": "arc",
+              "center": [300, 255],
+              "radius": 5,
+              "start_angle": 0,
+              "end_angle": 180
+            }
+          ]
+        },
+        {
+          "name": "大灰狼",
+          "description": "画大灰狼",
+          "color": [128, 128, 128],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[100, 200], [130, 200], [140, 250], [90, 250]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[90, 180], [80, 160], [90, 170], [100, 180]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "狼的嘴巴",
+          "description": "画张大的嘴巴",
+          "color": [255, 0, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[80, 190], [100, 185], [105, 195], [85, 200]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "狼的眼睛",
+          "description": "画凶狠的眼睛",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [95, 175],
+              "radius": 5,
+              "segments": 8
+            }
+          ]
+        },
+        {
+          "name": "吹气",
+          "description": "画狼吹气的效果",
+          "color": [135, 206, 235],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [120, 190],
+              "radius": 20,
+              "start_angle": 270,
+              "end_angle": 450
+            },
+            {
+              "type": "arc",
+              "center": [130, 195],
+              "radius": 15,
+              "start_angle": 270,
+              "end_angle": 450
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

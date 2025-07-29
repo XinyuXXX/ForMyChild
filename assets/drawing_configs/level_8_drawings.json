@@ -1,0 +1,636 @@
+{
+  "version": "1.0",
+  "level": 8,
+  "description": "简单故事场景，适合8岁儿童",
+  "drawings": [
+    {
+      "id": "three_little_pigs",
+      "name": "三只小猪",
+      "type": "story",
+      "steps": [
+        {
+          "name": "第一只小猪",
+          "description": "画第一只小猪",
+          "color": [255, 192, 203],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [80, 200],
+              "radius": 30,
+              "segments": 20
+            },
+            {
+              "type": "circle",
+              "center": [80, 160],
+              "radius": 25,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "第一只猪的脸",
+          "description": "画眼睛和鼻子",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [70, 155],
+              "radius": 2,
+              "segments": 6
+            },
+            {
+              "type": "circle",
+              "center": [90, 155],
+              "radius": 2,
+              "segments": 6
+            },
+            {
+              "type": "polygon",
+              "points": [[80, 165], [75, 170], [85, 170]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "草房子",
+          "description": "画第一只猪的草房子",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[40, 200], [120, 200], [120, 260], [40, 260]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[30, 200], [80, 160], [130, 200]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "第二只小猪",
+          "description": "画第二只小猪",
+          "color": [255, 182, 193],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [200, 200],
+              "radius": 30,
+              "segments": 20
+            },
+            {
+              "type": "circle",
+              "center": [200, 160],
+              "radius": 25,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "第二只猪的脸",
+          "description": "画眼睛和鼻子",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [190, 155],
+              "radius": 2,
+              "segments": 6
+            },
+            {
+              "type": "circle",
+              "center": [210, 155],
+              "radius": 2,
+              "segments": 6
+            },
+            {
+              "type": "polygon",
+              "points": [[200, 165], [195, 170], [205, 170]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "木房子",
+          "description": "画第二只猪的木房子",
+          "color": [139, 90, 43],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[160, 200], [240, 200], [240, 260], [160, 260]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[150, 200], [200, 160], [250, 200]],
+              "closed": true
+            },
+            {
+              "type": "line",
+              "points": [[170, 200], [170, 260]]
+            },
+            {
+              "type": "line",
+              "points": [[180, 200], [180, 260]]
+            },
+            {
+              "type": "line",
+              "points": [[190, 200], [190, 260]]
+            }
+          ]
+        },
+        {
+          "name": "第三只小猪",
+          "description": "画第三只小猪",
+          "color": [255, 192, 203],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [320, 200],
+              "radius": 30,
+              "segments": 20
+            },
+            {
+              "type": "circle",
+              "center": [320, 160],
+              "radius": 25,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "第三只猪的脸",
+          "description": "画眼睛和鼻子",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [310, 155],
+              "radius": 2,
+              "segments": 6
+            },
+            {
+              "type": "circle",
+              "center": [330, 155],
+              "radius": 2,
+              "segments": 6
+            },
+            {
+              "type": "polygon",
+              "points": [[320, 165], [315, 170], [325, 170]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "砖房子",
+          "description": "画第三只猪的砖房子",
+          "color": [178, 34, 34],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[280, 200], [360, 200], [360, 260], [280, 260]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[270, 200], [320, 160], [370, 200]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "砖块纹理",
+          "description": "画砖块的纹理",
+          "color": [139, 0, 0],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[280, 215], [360, 215]]
+            },
+            {
+              "type": "line",
+              "points": [[280, 230], [360, 230]]
+            },
+            {
+              "type": "line",
+              "points": [[280, 245], [360, 245]]
+            },
+            {
+              "type": "line",
+              "points": [[300, 200], [300, 215]]
+            },
+            {
+              "type": "line",
+              "points": [[320, 200], [320, 215]]
+            },
+            {
+              "type": "line",
+              "points": [[340, 200], [340, 215]]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rabbit_and_carrot",
+      "name": "小兔子找萝卜",
+      "type": "story",
+      "steps": [
+        {
+          "name": "草地",
+          "description": "先画草地",
+          "color": [124, 252, 0],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[0, 250], [400, 250], [400, 350], [0, 350]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "小兔子",
+          "description": "画一只小兔子",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [100, 200],
+              "radius": 35,
+              "segments": 25
+            },
+            {
+              "type": "circle",
+              "center": [100, 160],
+              "radius": 25,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "兔耳朵",
+          "description": "画长长的耳朵",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[85, 145], [80, 110], [90, 110], [95, 145]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[105, 145], [110, 110], [120, 110], [115, 145]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "兔子的脸",
+          "description": "画兔子的表情",
+          "color": [255, 192, 203],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [90, 155],
+              "radius": 3,
+              "segments": 6
+            },
+            {
+              "type": "circle",
+              "center": [110, 155],
+              "radius": 3,
+              "segments": 6
+            },
+            {
+              "type": "polygon",
+              "points": [[100, 165], [95, 168], [105, 168]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "萝卜地",
+          "description": "画一片萝卜地",
+          "color": [255, 140, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[250, 240], [260, 235], [265, 245], [255, 250]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[280, 240], [290, 235], [295, 245], [285, 250]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[310, 240], [320, 235], [325, 245], [315, 250]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "萝卜叶子",
+          "description": "画萝卜的叶子",
+          "color": [0, 128, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[255, 235], [250, 225], [260, 225]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[260, 235], [255, 225], [265, 225]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[285, 235], [280, 225], [290, 225]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[290, 235], [285, 225], [295, 225]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[315, 235], [310, 225], [320, 225]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[320, 235], [315, 225], [325, 225]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "跳跃的兔腿",
+          "description": "画兔子跳跃的腿",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [80, 230],
+              "radius": 15,
+              "segments": 12
+            },
+            {
+              "type": "circle",
+              "center": [120, 235],
+              "radius": 15,
+              "segments": 12
+            }
+          ]
+        },
+        {
+          "name": "路径",
+          "description": "画兔子跳跃的路径",
+          "color": [139, 69, 19],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [150, 240],
+              "radius": 20,
+              "start_angle": 180,
+              "end_angle": 360
+            },
+            {
+              "type": "arc",
+              "center": [200, 240],
+              "radius": 20,
+              "start_angle": 180,
+              "end_angle": 360
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family_picnic",
+      "name": "家庭野餐",
+      "type": "story",
+      "steps": [
+        {
+          "name": "野餐布",
+          "description": "先铺一块野餐布",
+          "color": [255, 99, 71],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[50, 280], [350, 280], [370, 320], [30, 320]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "爷爷",
+          "description": "画坐着的爷爷",
+          "color": [100, 100, 100],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[60, 240], [100, 240], [100, 280], [60, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "爷爷的头",
+          "description": "画爷爷的头和白发",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [80, 210],
+              "radius": 25,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "爷爷的白发",
+          "description": "画白发",
+          "color": [220, 220, 220],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [80, 210],
+              "radius": 30,
+              "start_angle": 180,
+              "end_angle": 360
+            }
+          ]
+        },
+        {
+          "name": "奶奶",
+          "description": "画坐着的奶奶",
+          "color": [147, 112, 219],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[120, 240], [160, 240], [160, 280], [120, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "奶奶的头",
+          "description": "画奶奶的头",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [140, 210],
+              "radius": 25,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "食物篮子",
+          "description": "画野餐篮子",
+          "color": [139, 90, 43],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[180, 270], [220, 270], [225, 290], [175, 290]],
+              "closed": true
+            },
+            {
+              "type": "arc",
+              "center": [200, 270],
+              "radius": 25,
+              "start_angle": 180,
+              "end_angle": 360
+            }
+          ]
+        },
+        {
+          "name": "小男孩",
+          "description": "画玩耍的小男孩",
+          "color": [0, 150, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[250, 250], [280, 250], [280, 280], [250, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "男孩的头",
+          "description": "画男孩的头",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [265, 230],
+              "radius": 20,
+              "segments": 15
+            }
+          ]
+        },
+        {
+          "name": "小女孩",
+          "description": "画小女孩",
+          "color": [255, 182, 193],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[300, 250], [330, 250], [330, 280], [300, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "女孩的头",
+          "description": "画女孩的头和双马尾",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [315, 230],
+              "radius": 20,
+              "segments": 15
+            }
+          ]
+        },
+        {
+          "name": "女孩的马尾",
+          "description": "画双马尾",
+          "color": [139, 69, 19],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [295, 225],
+              "radius": 8,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [335, 225],
+              "radius": 8,
+              "segments": 10
+            }
+          ]
+        },
+        {
+          "name": "水果",
+          "description": "画一些水果",
+          "color": [255, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [190, 285],
+              "radius": 8,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [210, 285],
+              "radius": 8,
+              "segments": 10
+            }
+          ]
+        },
+        {
+          "name": "太阳",
+          "description": "画个太阳",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [350, 50],
+              "radius": 30,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "树",
+          "description": "画一棵树做背景",
+          "color": [34, 139, 34],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[20, 200], [40, 200], [40, 280], [20, 280]],
+              "closed": true
+            },
+            {
+              "type": "circle",
+              "center": [30, 180],
+              "radius": 40,
+              "segments": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "player_name": "东东",
+  "created_at": "2025-07-27T17:36:47.442140",
+  "total_coins": 219,
+  "total_stars": 30,
+  "games": {
+    "find_difference": {
+      "level": 1,
+      "games_played": 8,
+      "games_won": 8,
+      "current_difficulty": 5,
+      "history": [
+        {
+          "timestamp": "2025-07-27T17:53:06.978551",
+          "won": true,
+          "score": 68,
+          "time_taken": 31.290311,
+          "difficulty": 1,
+          "details": {
+            "score": 68,
+            "found": 3,
+            "total": 3,
+            "time_used": 31.29200000000081,
+            "completed": true
+          }
+        },
+        {
+          "timestamp": "2025-07-27T17:53:58.961436",
+          "won": true,
+          "score": 52,
+          "time_taken": 47.068454,
+          "difficulty": 1,
+          "details": {
+            "score": 52,
+            "found": 3,
+            "total": 3,
+            "time_used": 47.06800000000088,
+            "completed": true
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:04:43.975158",
+          "won": true,
+          "score": 83,
+          "time_taken": 16.289972,
+          "difficulty": 1,
+          "details": {
+            "score": 83,
+            "found": 3,
+            "total": 3,
+            "time_used": 16.291000000000494,
+            "completed": true
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:13:44.510771",
+          "won": true,
+          "score": 82,
+          "time_taken": 17.031383,
+          "difficulty": 1,
+          "details": {
+            "score": 82,
+            "found": 3,
+            "total": 3,
+            "time_used": 17.032000000000764,
+            "completed": true
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:17:51.899429",
+          "won": true,
+          "score": 44,
+          "time_taken": 55.248573,
+          "difficulty": 1,
+          "details": {
+            "score": 44,
+            "found": 3,
+            "total": 3,
+            "time_used": 55.25100000000074,
+            "completed": true
+          }
+        },
+        {
+          "timestamp": "2025-07-28T00:27:10.108888",
+          "won": true,
+          "score": 10,
+          "time_taken": 87.503514,
+          "difficulty": 2,
+          "details": {
+            "score": 10,
+            "total": 10,
+            "accuracy": 100.0
+          }
+        },
+        {
+          "timestamp": "2025-07-28T20:43:34.778353",
+          "won": true,
+          "score": 10,
+          "time_taken": 104.939903,
+          "difficulty": 3,
+          "details": {
+            "score": 10,
+            "total": 10,
+            "accuracy": 100.0
+          }
+        },
+        {
+          "timestamp": "2025-07-28T20:48:47.561734",
+          "won": true,
+          "score": 10,
+          "time_taken": 85.700931,
+          "difficulty": 4,
+          "details": {
+            "score": 10,
+            "total": 10,
+            "accuracy": 100.0
+          }
+        }
+      ]
+    },
+    "counting": {
+      "level": 1,
+      "games_played": 3,
+      "games_won": 3,
+      "current_difficulty": 1,
+      "history": [
+        {
+          "timestamp": "2025-07-27T17:37:20.082946",
+          "won": true,
+          "score": 40,
+          "time_taken": 30.63805,
+          "difficulty": 1,
+          "details": {
+            "score": 40,
+            "rounds_played": 5,
+            "accuracy": 26.666666666666668
+          }
+        },
+        {
+          "timestamp": "2025-07-27T17:54:32.964287",
+          "won": true,
+          "score": 80,
+          "time_taken": 30.000419,
+          "difficulty": 1,
+          "details": {
+            "score": 80,
+            "rounds_played": 5,
+            "accuracy": 53.333333333333336
+          }
+        },
+        {
+          "timestamp": "2025-07-27T19:15:52.998397",
+          "won": true,
+          "score": 200,
+          "time_taken": 57.353401,
+          "difficulty": 1,
+          "details": {
+            "score": 200,
+            "rounds_played": 10,
+            "accuracy": 66.66666666666666
+          }
+        }
+      ]
+    },
+    "simple_math": {
+      "level": 1,
+      "games_played": 12,
+      "games_won": 5,
+      "current_difficulty": 1,
+      "history": [
+        {
+          "timestamp": "2025-07-27T17:38:12.801427",
+          "won": false,
+          "score": 0,
+          "time_taken": 27.999212,
+          "difficulty": 1,
+          "details": {
+            "score": 0,
+            "problems_solved": 0,
+            "total_problems": 5,
+            "accuracy": 0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T17:38:45.195716",
+          "won": false,
+          "score": 0,
+          "time_taken": 27.995121,
+          "difficulty": 1,
+          "details": {
+            "score": 0,
+            "problems_solved": 0,
+            "total_problems": 5,
+            "accuracy": 0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T17:55:04.954058",
+          "won": false,
+          "score": 0,
+          "time_taken": 27.993044,
+          "difficulty": 1,
+          "details": {
+            "score": 0,
+            "problems_solved": 0,
+            "total_problems": 5,
+            "accuracy": 0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T17:56:30.631273",
+          "won": false,
+          "score": 0,
+          "time_taken": 28.000297,
+          "difficulty": 1,
+          "details": {
+            "score": 0,
+            "problems_solved": 0,
+            "total_problems": 5,
+            "accuracy": 0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:05:29.569567",
+          "won": false,
+          "score": 0,
+          "time_taken": 27.989138,
+          "difficulty": 1,
+          "details": {
+            "score": 0,
+            "problems_solved": 0,
+            "total_problems": 5,
+            "accuracy": 0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:13:17.844451",
+          "won": true,
+          "score": 44,
+          "time_taken": 33.997929,
+          "difficulty": 1,
+          "details": {
+            "score": 44,
+            "problems_solved": 3,
+            "total_problems": 5,
+            "accuracy": 73.33333333333333
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:14:38.904745",
+          "won": true,
+          "score": 17,
+          "time_taken": 30.004769,
+          "difficulty": 1,
+          "details": {
+            "score": 17,
+            "problems_solved": 1,
+            "total_problems": 5,
+            "accuracy": 85.0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:15:44.859365",
+          "won": false,
+          "score": 0,
+          "time_taken": 27.974652,
+          "difficulty": 1,
+          "details": {
+            "score": 0,
+            "problems_solved": 0,
+            "total_problems": 5,
+            "accuracy": 0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:16:33.478683",
+          "won": false,
+          "score": 0,
+          "time_taken": 27.893085,
+          "difficulty": 1,
+          "details": {
+            "score": 0,
+            "problems_solved": 0,
+            "total_problems": 5,
+            "accuracy": 0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:42:21.873737",
+          "won": true,
+          "score": 30,
+          "time_taken": 31.937656,
+          "difficulty": 1,
+          "details": {
+            "score": 30,
+            "problems_solved": 5,
+            "total_problems": 5,
+            "accuracy": 30.0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:43:02.787324",
+          "won": true,
+          "score": 40,
+          "time_taken": 37.192746,
+          "difficulty": 1,
+          "details": {
+            "score": 40,
+            "problems_solved": 5,
+            "total_problems": 5,
+            "accuracy": 40.0
+          }
+        },
+        {
+          "timestamp": "2025-07-27T18:56:54.164865",
+          "won": true,
+          "score": 50,
+          "time_taken": 28.735217,
+          "difficulty": 1,
+          "details": {
+            "score": 50,
+            "problems_solved": 5,
+            "total_problems": 5,
+            "accuracy": 50.0
+          }
+        }
+      ]
+    },
+    "staff_reading": {
+      "level": 1,
+      "games_played": 3,
+      "games_won": 3,
+      "current_difficulty": 1,
+      "history": [
+        {
+          "timestamp": "2025-07-28T01:26:52.268675",
+          "won": true,
+          "score": 100,
+          "time_taken": 74.409826,
+          "difficulty": 1,
+          "details": {
+            "score": 100,
+            "rounds_played": 11,
+            "accuracy": 90.9090909090909
+          }
+        },
+        {
+          "timestamp": "2025-07-28T01:29:47.203355",
+          "won": true,
+          "score": 100,
+          "time_taken": 54.890425,
+          "difficulty": 1,
+          "details": {
+            "score": 100,
+            "rounds_played": 11,
+            "accuracy": 90.9090909090909
+          }
+        },
+        {
+          "timestamp": "2025-07-28T01:31:36.343390",
+          "won": true,
+          "score": 100,
+          "time_taken": 48.768628,
+          "difficulty": 1,
+          "details": {
+            "score": 100,
+            "rounds_played": 11,
+            "accuracy": 90.9090909090909
+          }
+        }
+      ]
+    },
+    "rhythm": {
+      "level": 1,
+      "games_played": 0,
+      "games_won": 0,
+      "current_difficulty": 1,
+      "history": []
+    },
+    "interval": {
+      "level": 1,
+      "games_played": 0,
+      "games_won": 0,
+      "current_difficulty": 1,
+      "history": []
+    }
+  },
+  "achievements": [],
+  "daily_streak": 0,
+  "last_played": "2025-07-29T01:43:40.901608",
+  "birth_date": "2020-12-31",
+  "difficulty_settings": {
+    "find_difference": 1,
+    "counting": 1,
+    "simple_math": 2,
+    "staff_reading": 2,
+    "rhythm": 3,
+    "interval": 2,
+    "drawing": 3
+  }
+}

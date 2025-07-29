@@ -1,0 +1,715 @@
+{
+  "version": "1.0",
+  "level": 10,
+  "description": "完整故事场景，适合10岁儿童",
+  "drawings": [
+    {
+      "id": "ocean_adventure",
+      "name": "海洋冒险",
+      "type": "story",
+      "steps": [
+        {
+          "name": "海洋",
+          "description": "画蓝色的海洋",
+          "color": [0, 119, 190],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[0, 200], [400, 200], [400, 350], [0, 350]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "海浪",
+          "description": "画起伏的海浪",
+          "color": [135, 206, 250],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [50, 200],
+              "radius": 30,
+              "start_angle": 0,
+              "end_angle": 180
+            },
+            {
+              "type": "arc",
+              "center": [110, 200],
+              "radius": 30,
+              "start_angle": 0,
+              "end_angle": 180
+            },
+            {
+              "type": "arc",
+              "center": [170, 200],
+              "radius": 30,
+              "start_angle": 0,
+              "end_angle": 180
+            },
+            {
+              "type": "arc",
+              "center": [230, 200],
+              "radius": 30,
+              "start_angle": 0,
+              "end_angle": 180
+            },
+            {
+              "type": "arc",
+              "center": [290, 200],
+              "radius": 30,
+              "start_angle": 0,
+              "end_angle": 180
+            },
+            {
+              "type": "arc",
+              "center": [350, 200],
+              "radius": 30,
+              "start_angle": 0,
+              "end_angle": 180
+            }
+          ]
+        },
+        {
+          "name": "邮轮",
+          "description": "画豪华邮轮",
+          "color": [192, 192, 192],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[150, 180], [250, 180], [260, 200], [140, 200]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "邮轮上层",
+          "description": "画邮轮的上层建筑",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[160, 160], [240, 160], [240, 180], [160, 180]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[170, 145], [230, 145], [230, 160], [170, 160]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "烟囱",
+          "description": "画邮轮烟囱",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[190, 130], [210, 130], [210, 145], [190, 145]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "窗户",
+          "description": "画邮轮窗户",
+          "color": [135, 206, 235],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[165, 165], [175, 165], [175, 175], [165, 175]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[185, 165], [195, 165], [195, 175], [185, 175]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[205, 165], [215, 165], [215, 175], [205, 175]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[225, 165], [235, 165], [235, 175], [225, 175]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "太阳",
+          "description": "画灿烂的太阳",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [350, 50],
+              "radius": 35,
+              "segments": 25
+            }
+          ]
+        },
+        {
+          "name": "阳光",
+          "description": "画太阳光芒",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[350, 15], [350, 25]]
+            },
+            {
+              "type": "line",
+              "points": [[350, 75], [350, 85]]
+            },
+            {
+              "type": "line",
+              "points": [[315, 50], [325, 50]]
+            },
+            {
+              "type": "line",
+              "points": [[375, 50], [385, 50]]
+            },
+            {
+              "type": "line",
+              "points": [[325, 25], [330, 30]]
+            },
+            {
+              "type": "line",
+              "points": [[370, 70], [375, 75]]
+            },
+            {
+              "type": "line",
+              "points": [[325, 75], [330, 70]]
+            },
+            {
+              "type": "line",
+              "points": [[370, 30], [375, 25]]
+            }
+          ]
+        },
+        {
+          "name": "海豚",
+          "description": "画跳跃的海豚",
+          "color": [128, 128, 128],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [80, 170],
+              "radius": 30,
+              "start_angle": 180,
+              "end_angle": 360
+            },
+            {
+              "type": "polygon",
+              "points": [[50, 170], [60, 160], [70, 170]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "海豚的眼睛",
+          "description": "画海豚的眼睛",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [90, 165],
+              "radius": 3,
+              "segments": 6
+            }
+          ]
+        },
+        {
+          "name": "小鱼群",
+          "description": "画游动的小鱼",
+          "color": [255, 140, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[30, 250], [45, 245], [40, 255], [25, 250]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[50, 270], [65, 265], [60, 275], [45, 270]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[70, 260], [85, 255], [80, 265], [65, 260]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "鱼尾巴",
+          "description": "画小鱼的尾巴",
+          "color": [255, 140, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[25, 250], [20, 245], [20, 255]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[45, 270], [40, 265], [40, 275]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[65, 260], [60, 255], [60, 265]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "海鸥",
+          "description": "画飞翔的海鸥",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [100, 80],
+              "radius": 15,
+              "start_angle": 180,
+              "end_angle": 270
+            },
+            {
+              "type": "arc",
+              "center": [100, 80],
+              "radius": 15,
+              "start_angle": 270,
+              "end_angle": 360
+            },
+            {
+              "type": "arc",
+              "center": [280, 100],
+              "radius": 12,
+              "start_angle": 180,
+              "end_angle": 270
+            },
+            {
+              "type": "arc",
+              "center": [280, 100],
+              "radius": 12,
+              "start_angle": 270,
+              "end_angle": 360
+            }
+          ]
+        },
+        {
+          "name": "云朵",
+          "description": "画白云",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [50, 60],
+              "radius": 20,
+              "segments": 15
+            },
+            {
+              "type": "circle",
+              "center": [65, 55],
+              "radius": 18,
+              "segments": 15
+            },
+            {
+              "type": "circle",
+              "center": [80, 60],
+              "radius": 20,
+              "segments": 15
+            }
+          ]
+        },
+        {
+          "name": "海底珊瑚",
+          "description": "画海底的珊瑚",
+          "color": [255, 127, 80],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[320, 300], [325, 280], [330, 290], [335, 275], [340, 295], [345, 280], [350, 300]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "海草",
+          "description": "画摇曳的海草",
+          "color": [0, 128, 0],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [280, 320],
+              "radius": 30,
+              "start_angle": 70,
+              "end_angle": 110
+            },
+            {
+              "type": "arc",
+              "center": [300, 320],
+              "radius": 35,
+              "start_angle": 70,
+              "end_angle": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forest_party",
+      "name": "森林聚会",
+      "type": "story",
+      "steps": [
+        {
+          "name": "草地",
+          "description": "画绿色的草地",
+          "color": [34, 139, 34],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[0, 280], [400, 280], [400, 350], [0, 350]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "大树",
+          "description": "画一棵大树",
+          "color": [139, 90, 43],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[180, 180], [220, 180], [220, 280], [180, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "树冠",
+          "description": "画茂盛的树冠",
+          "color": [34, 139, 34],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [200, 140],
+              "radius": 60,
+              "segments": 30
+            },
+            {
+              "type": "circle",
+              "center": [170, 160],
+              "radius": 40,
+              "segments": 25
+            },
+            {
+              "type": "circle",
+              "center": [230, 160],
+              "radius": 40,
+              "segments": 25
+            }
+          ]
+        },
+        {
+          "name": "长桌",
+          "description": "画聚会的长桌",
+          "color": [139, 90, 43],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[50, 240], [350, 240], [350, 260], [50, 260]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[60, 260], [70, 260], [70, 280], [60, 280]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[330, 260], [340, 260], [340, 280], [330, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "兔子",
+          "description": "画坐着的兔子",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [80, 220],
+              "radius": 20,
+              "segments": 15
+            },
+            {
+              "type": "circle",
+              "center": [80, 195],
+              "radius": 15,
+              "segments": 12
+            }
+          ]
+        },
+        {
+          "name": "兔耳朵",
+          "description": "画兔子的长耳朵",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[70, 185], [65, 165], [75, 165], [75, 185]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[85, 185], [85, 165], [95, 165], [90, 185]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "熊猫",
+          "description": "画吃竹子的熊猫",
+          "color": [255, 255, 255],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [150, 230],
+              "radius": 25,
+              "segments": 18
+            },
+            {
+              "type": "circle",
+              "center": [150, 195],
+              "radius": 20,
+              "segments": 15
+            }
+          ]
+        },
+        {
+          "name": "熊猫特征",
+          "description": "画熊猫的黑色部分",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [135, 185],
+              "radius": 8,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [165, 185],
+              "radius": 8,
+              "segments": 10
+            },
+            {
+              "type": "polygon",
+              "points": [[140, 195], [143, 192], [147, 195], [143, 200], [140, 197]],
+              "closed": true
+            },
+            {
+              "type": "polygon",
+              "points": [[153, 195], [157, 192], [160, 195], [157, 200], [153, 197]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "猴子",
+          "description": "画活泼的猴子",
+          "color": [139, 90, 19],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [250, 200],
+              "radius": 18,
+              "segments": 15
+            },
+            {
+              "type": "circle",
+              "center": [250, 175],
+              "radius": 15,
+              "segments": 12
+            }
+          ]
+        },
+        {
+          "name": "猴子的手",
+          "description": "画猴子挥手",
+          "color": [139, 90, 19],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[235, 185], [220, 170]]
+            },
+            {
+              "type": "circle",
+              "center": [220, 170],
+              "radius": 5,
+              "segments": 8
+            }
+          ]
+        },
+        {
+          "name": "小鸟",
+          "description": "画树上的小鸟",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [180, 120],
+              "radius": 10,
+              "segments": 10
+            },
+            {
+              "type": "polygon",
+              "points": [[170, 120], [165, 115], [165, 125]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "松鼠",
+          "description": "画拿松果的松鼠",
+          "color": [205, 133, 63],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [320, 220],
+              "radius": 15,
+              "segments": 12
+            },
+            {
+              "type": "circle",
+              "center": [320, 200],
+              "radius": 12,
+              "segments": 10
+            }
+          ]
+        },
+        {
+          "name": "松鼠尾巴",
+          "description": "画大大的尾巴",
+          "color": [205, 133, 63],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [335, 210],
+              "radius": 20,
+              "start_angle": 90,
+              "end_angle": 270
+            }
+          ]
+        },
+        {
+          "name": "食物",
+          "description": "画桌上的食物",
+          "color": [255, 165, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [100, 235],
+              "radius": 8,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [150, 235],
+              "radius": 8,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [200, 235],
+              "radius": 8,
+              "segments": 10
+            }
+          ]
+        },
+        {
+          "name": "竹子",
+          "description": "画熊猫的竹子",
+          "color": [34, 139, 34],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[170, 210], [175, 210], [175, 235], [170, 235]],
+              "closed": true
+            },
+            {
+              "type": "line",
+              "points": [[170, 220], [175, 220]]
+            }
+          ]
+        },
+        {
+          "name": "彩旗",
+          "description": "画庆祝的彩旗",
+          "color": [255, 0, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[50, 100], [70, 120], [50, 140]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "更多彩旗",
+          "description": "画更多彩旗",
+          "color": [0, 0, 255],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[90, 100], [110, 120], [90, 140]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "彩旗连线",
+          "description": "连接彩旗",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[50, 100], [90, 100], [130, 100], [170, 100]]
+            }
+          ]
+        },
+        {
+          "name": "月亮",
+          "description": "画弯弯的月亮",
+          "color": [255, 255, 224],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [350, 50],
+              "radius": 30,
+              "start_angle": 30,
+              "end_angle": 150
+            }
+          ]
+        },
+        {
+          "name": "星星",
+          "description": "画闪亮的星星",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[300, 40], [305, 50], [315, 50], [307, 57], [310, 67], [300, 60], [290, 67], [293, 57], [285, 50], [295, 50]],
+              "closed": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

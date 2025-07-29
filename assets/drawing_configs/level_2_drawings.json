@@ -1,0 +1,282 @@
+{
+  "version": "1.0",
+  "level": 2,
+  "description": "简单图案，适合4-5岁儿童",
+  "drawings": [
+    {
+      "id": "sun_medium",
+      "name": "太阳",
+      "type": "circle",
+      "steps": [
+        {
+          "name": "圆圈",
+          "description": "先画一个大圆圈",
+          "color": [255, 200, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [200, 200],
+              "radius": 80,
+              "start_angle": 0,
+              "end_angle": 360,
+              "segments": 36
+            }
+          ]
+        },
+        {
+          "name": "光芒",
+          "description": "画8条直线做太阳光",
+          "color": [255, 150, 0],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[200, 120], [200, 80]]
+            },
+            {
+              "type": "line",
+              "points": [[200, 280], [200, 320]]
+            },
+            {
+              "type": "line",  
+              "points": [[120, 200], [80, 200]]
+            },
+            {
+              "type": "line",
+              "points": [[280, 200], [320, 200]]
+            },
+            {
+              "type": "line",
+              "points": [[150, 150], [120, 120]]
+            },
+            {
+              "type": "line",
+              "points": [[250, 150], [280, 120]]
+            },
+            {
+              "type": "line",
+              "points": [[150, 250], [120, 280]]
+            },
+            {
+              "type": "line",
+              "points": [[250, 250], [280, 280]]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flower_simple",
+      "name": "小花",
+      "type": "flower",
+      "steps": [
+        {
+          "name": "花茎",
+          "description": "画一条竖线做花茎",
+          "color": [34, 139, 34],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[200, 250], [200, 350]]
+            }
+          ]
+        },
+        {
+          "name": "花瓣",
+          "description": "画几个圆圈做花瓣",
+          "color": [255, 182, 193],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [200, 200],
+              "radius": 25,
+              "start_angle": 0,
+              "end_angle": 360,
+              "segments": 20
+            },
+            {
+              "type": "circle",
+              "center": [170, 220],
+              "radius": 25,
+              "start_angle": 0,
+              "end_angle": 360,
+              "segments": 20
+            },
+            {
+              "type": "circle",
+              "center": [230, 220],
+              "radius": 25,
+              "start_angle": 0,
+              "end_angle": 360,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "花心",
+          "description": "中间画个小圆圈",
+          "color": [255, 215, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [200, 220],
+              "radius": 15,
+              "start_angle": 0,
+              "end_angle": 360,
+              "segments": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boat_simple",
+      "name": "小船",
+      "type": "boat",
+      "steps": [
+        {
+          "name": "船身",
+          "description": "先画一个半圆形做船身",
+          "color": [139, 69, 19],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [200, 250],
+              "radius": 80,
+              "start_angle": 0,
+              "end_angle": 180
+            },
+            {
+              "type": "line",
+              "points": [[120, 250], [280, 250]]
+            }
+          ]
+        },
+        {
+          "name": "帆",
+          "description": "画一个三角形做帆",
+          "color": [255, 228, 181],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[200, 100], [200, 240], [260, 200]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "桅杆",
+          "description": "画一条竖线做桅杆",
+          "color": [101, 67, 33],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[200, 250], [200, 100]]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simple_fish",
+      "name": "小鱼",
+      "type": "animal",
+      "steps": [
+        {
+          "name": "身体",
+          "description": "画一个椭圆做身体",
+          "color": [255, 165, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[150, 200], [250, 180], [250, 220], [150, 200]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "尾巴",
+          "description": "画一个三角形做尾巴",
+          "color": [255, 140, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[250, 200], [280, 180], [280, 220]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "眼睛",
+          "description": "画一个小圆圈做眼睛",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [170, 190],
+              "radius": 5,
+              "segments": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simple_duck",
+      "name": "小鸭子",
+      "type": "animal",
+      "steps": [
+        {
+          "name": "身体",
+          "description": "画一个大圆做身体",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [200, 220],
+              "radius": 40,
+              "segments": 25
+            }
+          ]
+        },
+        {
+          "name": "头",
+          "description": "画一个小圆做头",
+          "color": [255, 255, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [170, 180],
+              "radius": 25,
+              "segments": 20
+            }
+          ]
+        },
+        {
+          "name": "嘴巴",
+          "description": "画一个小三角形做嘴巴",
+          "color": [255, 140, 0],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[145, 180], [140, 185], [145, 190]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "眼睛",
+          "description": "画一个小点做眼睛",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [160, 175],
+              "radius": 3,
+              "segments": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

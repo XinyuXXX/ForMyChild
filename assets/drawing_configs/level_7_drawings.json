@@ -1,0 +1,354 @@
+{
+  "version": "1.0",
+  "level": 7,
+  "description": "家庭场景，适合7岁儿童",
+  "drawings": [
+    {
+      "id": "grandpa_reading",
+      "name": "看报纸的爷爷",
+      "type": "scene",
+      "steps": [
+        {
+          "name": "椅子",
+          "description": "先画一把椅子",
+          "color": [139, 90, 43],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[120, 200], [220, 200], [220, 280], [120, 280]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[120, 150], [130, 150], [130, 280], [120, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "爷爷身体",
+          "description": "画坐着的爷爷身体",
+          "color": [100, 100, 100],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[140, 160], [200, 160], [200, 220], [140, 220]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "爷爷的头",
+          "description": "画爷爷的头",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [170, 120],
+              "radius": 35,
+              "segments": 25
+            }
+          ]
+        },
+        {
+          "name": "白头发",
+          "description": "画爷爷的白头发",
+          "color": [220, 220, 220],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [170, 120],
+              "radius": 40,
+              "start_angle": 180,
+              "end_angle": 360
+            },
+            {
+              "type": "arc",
+              "center": [150, 100],
+              "radius": 15,
+              "start_angle": 0,
+              "end_angle": 180
+            },
+            {
+              "type": "arc",
+              "center": [170, 95],
+              "radius": 15,
+              "start_angle": 0,
+              "end_angle": 180
+            },
+            {
+              "type": "arc",
+              "center": [190, 100],
+              "radius": 15,
+              "start_angle": 0,
+              "end_angle": 180
+            }
+          ]
+        },
+        {
+          "name": "眼镜",
+          "description": "画爷爷的眼镜",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [155, 120],
+              "radius": 10,
+              "segments": 12
+            },
+            {
+              "type": "circle",
+              "center": [185, 120],
+              "radius": 10,
+              "segments": 12
+            },
+            {
+              "type": "line",
+              "points": [[165, 120], [175, 120]]
+            }
+          ]
+        },
+        {
+          "name": "胡子",
+          "description": "画爷爷的胡子",
+          "color": [200, 200, 200],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [170, 140],
+              "radius": 15,
+              "start_angle": 0,
+              "end_angle": 180
+            }
+          ]
+        },
+        {
+          "name": "报纸",
+          "description": "画报纸",
+          "color": [240, 240, 240],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[190, 160], [250, 150], [260, 200], [200, 210]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "报纸文字",
+          "description": "画报纸上的文字",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[200, 165], [245, 160]]
+            },
+            {
+              "type": "line",
+              "points": [[200, 175], [245, 170]]
+            },
+            {
+              "type": "line",
+              "points": [[200, 185], [245, 180]]
+            }
+          ]
+        },
+        {
+          "name": "手",
+          "description": "画拿报纸的手",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [195, 180],
+              "radius": 10,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [255, 175],
+              "radius": 10,
+              "segments": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grandma_knitting",
+      "name": "织毛衣的奶奶",
+      "type": "scene",
+      "steps": [
+        {
+          "name": "沙发",
+          "description": "画一个沙发",
+          "color": [255, 192, 203],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[100, 220], [260, 220], [260, 300], [100, 300]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[90, 200], [110, 200], [110, 250], [90, 250]],
+              "closed": true
+            },
+            {
+              "type": "rectangle",
+              "points": [[250, 200], [270, 200], [270, 250], [250, 250]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "奶奶身体",
+          "description": "画坐着的奶奶",
+          "color": [147, 112, 219],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[140, 170], [220, 170], [210, 230], [150, 230]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "奶奶的头",
+          "description": "画奶奶的头",
+          "color": [255, 220, 177],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [180, 130],
+              "radius": 35,
+              "segments": 25
+            }
+          ]
+        },
+        {
+          "name": "卷发",
+          "description": "画奶奶的卷发",
+          "color": [192, 192, 192],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [160, 105],
+              "radius": 12,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [175, 100],
+              "radius": 12,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [190, 100],
+              "radius": 12,
+              "segments": 10
+            },
+            {
+              "type": "circle",
+              "center": [205, 105],
+              "radius": 12,
+              "segments": 10
+            }
+          ]
+        },
+        {
+          "name": "慈祥的脸",
+          "description": "画奶奶慈祥的表情",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "arc",
+              "center": [165, 125],
+              "radius": 5,
+              "start_angle": 180,
+              "end_angle": 360
+            },
+            {
+              "type": "arc",
+              "center": [195, 125],
+              "radius": 5,
+              "start_angle": 180,
+              "end_angle": 360
+            },
+            {
+              "type": "arc",
+              "center": [180, 140],
+              "radius": 8,
+              "start_angle": 0,
+              "end_angle": 180
+            }
+          ]
+        },
+        {
+          "name": "毛线针",
+          "description": "画织毛衣的针",
+          "color": [192, 192, 192],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[160, 190], [140, 170]]
+            },
+            {
+              "type": "line",
+              "points": [[200, 190], [220, 170]]
+            },
+            {
+              "type": "circle",
+              "center": [140, 170],
+              "radius": 3,
+              "segments": 6
+            },
+            {
+              "type": "circle",
+              "center": [220, 170],
+              "radius": 3,
+              "segments": 6
+            }
+          ]
+        },
+        {
+          "name": "毛衣",
+          "description": "画正在织的毛衣",
+          "color": [255, 105, 180],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[160, 190], [200, 190], [195, 210], [165, 210]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "毛线球",
+          "description": "画旁边的毛线球",
+          "color": [255, 105, 180],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [130, 240],
+              "radius": 20,
+              "segments": 15
+            },
+            {
+              "type": "arc",
+              "center": [130, 240],
+              "radius": 20,
+              "start_angle": 45,
+              "end_angle": 135
+            },
+            {
+              "type": "line",
+              "points": [[145, 230], [165, 210]]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Drawing Configuration Schema",
+  "description": "Schema for defining drawing tutorials with steps",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Configuration version"
+    },
+    "drawings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "type", "difficulty_levels"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the drawing"
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name in Chinese"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["circle", "rectangle", "triangle", "flower", "car", "animal"],
+            "description": "Shape type category"
+          },
+          "difficulty_levels": {
+            "type": "object",
+            "description": "Steps organized by difficulty level",
+            "patternProperties": {
+              "^[1-5]$": {
+                "type": "object",
+                "properties": {
+                  "steps": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/definitions/step"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "step": {
+      "type": "object",
+      "required": ["name", "description", "strokes"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Step name"
+        },
+        "description": {
+          "type": "string",
+          "description": "Voice instruction in Chinese"
+        },
+        "color": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255
+          },
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "RGB color values"
+        },
+        "strokes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/stroke"
+          }
+        }
+      }
+    },
+    "stroke": {
+      "type": "object",
+      "required": ["type", "points"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["line", "circle", "rectangle", "polygon", "arc"],
+          "description": "Stroke type"
+        },
+        "points": {
+          "type": "array",
+          "description": "Points or parameters depending on type"
+        },
+        "closed": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether the shape is closed"
+        }
+      }
+    }
+  }
+}

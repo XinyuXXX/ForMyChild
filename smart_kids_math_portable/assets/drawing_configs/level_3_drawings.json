@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "level": 3,
+  "description": "中等难度图案，适合5岁儿童",
+  "drawings": [
+    {
+      "id": "house_detailed",
+      "name": "房子",
+      "type": "rectangle",
+      "steps": [
+        {
+          "name": "墙壁",
+          "description": "画一个大长方形",
+          "color": [200, 150, 100],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[100, 200], [300, 200], [300, 320], [100, 320]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "屋顶",
+          "description": "上面画个三角形",
+          "color": [178, 34, 34],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[80, 200], [200, 120], [320, 200]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "门",
+          "description": "中间画个小长方形做门",
+          "color": [101, 67, 33],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[170, 250], [230, 250], [230, 320], [170, 320]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "窗户",
+          "description": "旁边画个正方形做窗户",
+          "color": [135, 206, 235],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[130, 230], [170, 230], [170, 270], [130, 270]],
+              "closed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "car_simple",
+      "name": "小汽车",
+      "type": "car",
+      "steps": [
+        {
+          "name": "车身",
+          "description": "画一个长方形做车身",
+          "color": [0, 0, 255],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[80, 220], [320, 220], [320, 280], [80, 280]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "车窗",
+          "description": "上面画个小长方形做车窗",
+          "color": [135, 206, 235],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[120, 180], [280, 180], [280, 220], [120, 220]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "轮子",
+          "description": "画两个圆圈做轮子",
+          "color": [0, 0, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [130, 280],
+              "radius": 25,
+              "start_angle": 0,
+              "end_angle": 360,
+              "segments": 20
+            },
+            {
+              "type": "circle",
+              "center": [270, 280],
+              "radius": 25,
+              "start_angle": 0,
+              "end_angle": 360,
+              "segments": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

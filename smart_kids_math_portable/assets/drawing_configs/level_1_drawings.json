@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "level": 1,
+  "description": "最简单的图案，适合4岁儿童",
+  "drawings": [
+    {
+      "id": "sun_simple",
+      "name": "太阳",
+      "type": "circle",
+      "steps": [
+        {
+          "name": "圆圈",
+          "description": "画一个大大的圆圈就好啦",
+          "color": [255, 200, 0],
+          "strokes": [
+            {
+              "type": "circle",
+              "center": [200, 200],
+              "radius": 80,
+              "start_angle": 0,
+              "end_angle": 360,
+              "segments": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "house_simple",
+      "name": "房子",
+      "type": "rectangle",
+      "steps": [
+        {
+          "name": "房子",
+          "description": "画一个正方形",
+          "color": [200, 150, 100],
+          "strokes": [
+            {
+              "type": "rectangle",
+              "points": [[120, 200], [280, 200], [280, 300], [120, 300]],
+              "closed": true
+            }
+          ]
+        },
+        {
+          "name": "屋顶",
+          "description": "画一个三角形在上面",
+          "color": [178, 34, 34],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[100, 200], [200, 130], [300, 200]],
+              "closed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tree_simple",
+      "name": "小树",
+      "type": "triangle",
+      "steps": [
+        {
+          "name": "树干",
+          "description": "先画一条竖线",
+          "color": [101, 67, 33],
+          "strokes": [
+            {
+              "type": "line",
+              "points": [[200, 250], [200, 350]]
+            }
+          ]
+        },
+        {
+          "name": "树叶",
+          "description": "画一个大三角形",
+          "color": [34, 139, 34],
+          "strokes": [
+            {
+              "type": "polygon",
+              "points": [[150, 250], [200, 150], [250, 250]],
+              "closed": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
